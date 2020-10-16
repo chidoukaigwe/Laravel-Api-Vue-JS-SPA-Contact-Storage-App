@@ -19,7 +19,7 @@ Test Driven Development Laravel PHP Unit
 
 ## Run The App 
 1. `php artisan serve`
-2. `npm run --watch` (compile and watch files)
+2. `npm run development --watch` (compile and watch files)
 
 
 ## Run App Tests
