@@ -115,7 +115,7 @@ class ContactsTest extends TestCase
     /** @test */
     public function birthdays_are_properly_stored()
     {
-        $this->withoutExceptionHandling();
+        // $this->withoutExceptionHandling();
         $response = $this->post('/api/contacts', array_merge($this->data()));
 
         $this->assertCount(1, Contact::all());

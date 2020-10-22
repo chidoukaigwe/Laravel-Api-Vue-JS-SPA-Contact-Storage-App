@@ -39556,7 +39556,7 @@ var render = function() {
             name: "birthday",
             label: "Birthday",
             errors: _vm.errors,
-            placeholder: "MM-DD-YYYY"
+            placeholder: "MM/DD/YYYY"
           },
           on: {
             "update:field": function($event) {

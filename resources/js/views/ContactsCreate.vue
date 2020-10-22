@@ -8,7 +8,7 @@
 
             <InputField name="company" label="Company" :errors="errors" placeholder="Company" @update:field="form.company = $event"/>
 
-            <InputField name="birthday" label="Birthday" :errors="errors" placeholder="MM-DD-YYYY" @update:field="form.birthday = $event"/>
+            <InputField name="birthday" label="Birthday" :errors="errors" placeholder="MM/DD/YYYY" @update:field="form.birthday = $event"/>
 
             <div class="flex justify-end">
                 <button class="py-2 px-4 rounded text-red-700 border mr-5 hover:border-red-700">Cancel</button>
